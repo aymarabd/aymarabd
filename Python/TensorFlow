@@ -1,0 +1,14 @@
+Testing Tensor Flow Algorithms (outdated). Simple example of High-Frequency Trading (HFT) Algorithm using LSTMs (Long Short-Term Memory networks) in Python. 
+Model predictions using order book data usinf short-term price movements.
+
+TRAINING DATA:
+*timestamp (simulated time in milliseconds)
+*best_bid (best buy price)
+*best_ask (best sell price)
+*bid_volume (quantity available at best bid)
+*ask_volume (quantity available at best ask)
+*spread (difference between best ask and best bid)
+
+Improvements/problems:
+* Tested different Loss Functions: MAE seems to work better than MSE, as it is less sensitive to large outliers.
+* Loss Function ~ 99.00 for 100 sequence length
