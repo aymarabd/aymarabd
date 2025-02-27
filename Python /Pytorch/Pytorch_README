@@ -1,1 +1,3 @@
-Using Pytorch rather than TensorFlow, since "easier and more pythonic"
+Using Pytorch rather than TensorFlow, since "easier and more pythonic".
+
+Model is run with CPUs. Loss function smaller than when using TensorFLow.
